@@ -1,0 +1,130 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.border{
+    width: 248px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.logo{
+    display: flex;
+}
+.circle{
+    width: 16px;
+    height: 16px;
+    background: #FC0102;
+    border-radius: 50%;
+}
+.circle2{
+    width: 21px;
+    height: 1px;
+    transform: rotate(90deg);
+    background: black;
+}
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+
+    color: rgba(252, 1, 2, 0.8);
+}
+.text1{
+    width: 450px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.text1R{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+
+
+    color: rgba(255, 0, 0, 0.9);
+}
+.circle3{
+    width: 20px;
+    height: 1px;
+    background: black;
+    margin: 5px;
+}
+.trend{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 433px;
+    height: 80px;
+    background: rgba(252, 1, 2, 0.9);
+    border-radius: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imgCircle{
+    position: absolute;
+}
+.imgCircle2{
+    margin-left: -250px;
+    margin-top: -63px;
+    z-index: 1;
+    position: absolute;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1C1C1C;
+}
+.textFoot{
+    display: flex;
+    align-items: center;
+}
+.textFoot1{
+    color: white;
+    margin: 10px;
+}
+.footP{
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footNom{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.footAdr{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.imgCircle4{
+    position: absolute;
+    margin-top: 350px;
+}
