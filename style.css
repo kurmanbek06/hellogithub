@@ -14,6 +14,14 @@
 }
 .logo{
     display: flex;
+    align-items: center;
+}
+.logoHed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
 }
 .circle{
     width: 16px;
@@ -74,6 +82,8 @@
     font-weight: 700;
     font-size: 20px;
     border: none;
+    position: absolute;
+    z-index: 2;
 }
 .hero{
     display: grid;
@@ -87,6 +97,9 @@
     margin-top: -63px;
     z-index: 1;
     position: absolute;
+}
+.imgCircle5{
+    margin: 0 0 -5px 0;
 }
 .footer{
     display: flex;
@@ -127,4 +140,7 @@
 .imgCircle4{
     position: absolute;
     margin-top: 350px;
+}
+button:hover{
+    background: black;
 }
